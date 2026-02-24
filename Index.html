@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat con AI Open Source</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="header">Chat AI Open Source</div>
+    <div class="chat-box" id="chat-box">
+        <div class="message ai-msg">Ciao! Sono pronto ad aiutarti. Scrivi pure!</div>
+    </div>
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Scrivi il tuo messaggio qui..." onkeypress="handleKeyPress(event)">
+        <button onclick="sendMessage()">Invia</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
